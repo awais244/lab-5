@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Elements Example</title>
+    <style>
+        footer {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .name {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <x-center>
+        <h1>This content is centered both vertically and horizontally!</h1>
+    </x-center>
+    <footer>
+        &copy; <x-year></x-year> <span class="name">Awais Imran</span>
+    </footer>
+    <script src="x-center.js"></script>
+</body>
+</html>
